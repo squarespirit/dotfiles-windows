@@ -35,7 +35,7 @@ vmap <C-D> "+d
 vmap <C-Y> "+y
 nmap <C-P> "+P
 
-" Backspace works in indent mode
+" Backspace works in insert mode
 set backspace=indent,eol,start
 
 " No swap files
