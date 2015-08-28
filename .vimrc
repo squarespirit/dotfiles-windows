@@ -35,6 +35,10 @@ vmap <C-D> "+d
 vmap <C-Y> "+y
 nmap <C-P> "+P
 
+" Open new windows to right and bottom
+set splitbelow
+set splitright
+
 " Backspace works in insert mode
 set backspace=indent,eol,start
 
