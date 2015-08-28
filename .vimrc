@@ -45,6 +45,12 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Resizing windows
+map <C-u> <C-w>+
+map <C-y> <C-w>-
+map <C-m> <C-w>>
+map <C-n> <C-w><
+
 " Backspace works in insert mode
 set backspace=indent,eol,start
 
