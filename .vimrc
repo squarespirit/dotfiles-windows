@@ -39,6 +39,12 @@ nmap <C-P> "+P
 set splitbelow
 set splitright
 
+" Moving between windows
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 " Backspace works in insert mode
 set backspace=indent,eol,start
 
