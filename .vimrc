@@ -11,8 +11,8 @@ endif
 " Exit insert mode with jk
 imap jk <Esc>
 
-" Show line numbers
-set number
+" Show line numbers and ruler
+set number ruler
 
 " Expand tabs to spaces and use indent = 4 spaces
 set expandtab tabstop=4 shiftwidth=4	
