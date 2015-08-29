@@ -1,3 +1,6 @@
+" Set leader to Space
+let mapleader = "\<Space>"
+
 " In gvim, use DejaVu Sans Mono
 if has('gui_running')
     set guifont=DejaVu_Sans_Mono:h11:cANSI
@@ -31,9 +34,12 @@ set wrapmargin=0
 map <F4> :set wrap!<CR>
 
 " Clipboard key remappings
-vmap <C-D> "+d
-vmap <C-Y> "+y
-nmap <C-P> "+P
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
 
 " Open new windows to right and bottom
 set splitbelow
@@ -59,3 +65,8 @@ set noswapfile
 
 " Syntax highlighting on
 syntax on
+
+" All-lowercase search = case-insensitive
+" Any uppercase letters = case-sensitive
+set ignorecase
+set smartcase
