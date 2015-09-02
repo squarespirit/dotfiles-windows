@@ -70,3 +70,7 @@ syntax on
 " Any uppercase letters = case-sensitive
 set ignorecase
 set smartcase
+
+" Code folding based on indentation
+set foldmethod=indent
+set nofoldenable
