@@ -11,8 +11,9 @@ if has("autocmd")
     filetype plugin indent on
 endif
 
-" Exit insert mode with jk
+" Exit insert mode with jk or kj
 imap jk <Esc>
+imap kj <Esc>
 
 " Show line numbers and ruler
 set number ruler
