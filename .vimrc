@@ -34,7 +34,11 @@ set wrapmargin=0
 map <F4> :set wrap!<CR>
 
 " Clipboard key remappings
+nmap <Leader>y "+y
+nmap <Leader>Y "+Y
 vmap <Leader>y "+y
+nmap <Leader>d "+d
+nmap <Leader>D "+D
 vmap <Leader>d "+d
 nmap <Leader>p "+p
 nmap <Leader>P "+P
