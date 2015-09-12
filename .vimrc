@@ -1,6 +1,9 @@
 " Do not be compatible with vi, in case this is not the default
 set nocompatible
 
+" Enable Pathogen
+execute pathogen#infect()
+
 " Set leader to Space
 let mapleader = "\<Space>"
 
