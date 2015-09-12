@@ -1,3 +1,6 @@
+" Do not be compatible with vi, in case this is not the default
+set nocompatible
+
 " Set leader to Space
 let mapleader = "\<Space>"
 
