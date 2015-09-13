@@ -7,10 +7,8 @@ execute pathogen#infect()
 " Set leader to Space
 let mapleader = "\<Space>"
 
-" In gvim, use DejaVu Sans Mono
-if has('gui_running')
-    set guifont=DejaVu_Sans_Mono:h11:cANSI
-endif
+" Use indentation from previous line
+set autoindent
 
 " Enable filetype-based auto-indentation
 if has("autocmd")
