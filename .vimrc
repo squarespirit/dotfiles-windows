@@ -84,6 +84,7 @@ set smartcase
 
 " Code folding based on indentation
 set foldmethod=indent
+" Do not fold at first
 set nofoldenable
 
 " CtrlP: use Vim's working directory as CtrlP's working directory
