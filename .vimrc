@@ -80,6 +80,11 @@ syntax on
 set ignorecase
 set smartcase
 
+" Use WORDs when opening URLs.
+" This avoids cutting off URL params (after '?') and anchors (after '#'). 
+" All credit to http://vi.stackexchange.com/q/2801/1631
+let g:netrw_gx="<cWORD>"
+
 " Code folding based on indentation
 set foldmethod=indent
 " Do not fold at first
